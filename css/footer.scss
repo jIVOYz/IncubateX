@@ -1,0 +1,71 @@
+@import "base.scss";
+
+.footer {
+    max-height: 325px;
+    background-color: #f0e7e7;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-us__container {
+    display: flex;
+    flex-direction: column;
+    font-family: $roboto;
+    line-height: 19.53px;
+
+    & span:first-child {
+        color: $darkblue2;
+        font-size: 1.75em;
+        font-weight: 700;
+    }
+
+    span {
+        display: flex;
+        align-items: center;
+        color: $dark1;
+        font-size: 1.2em;
+        margin: 5px 0;
+    }
+}
+
+.form__title {
+    color: $darkblue;
+    font-size: 2.7em;
+    font-family: $roboto;
+    font-weight: 900;
+    margin: 0 0 10px 0;
+}
+
+.form__subtitle {
+    max-width: 419px;
+    color: $dark1;
+    font-size: 1.25em;
+    margin: 0 0 10px 0;
+}
+
+form input {
+    width: 287px;
+    height: 45px;
+    background: #FDFDFD;
+    border: 1.04167px solid #C4C4C4;
+    border-radius: 5.20833px;
+    font-size: 1.19em;
+    font-family: $roboto;
+}
+
+form button {
+    width: 104px;
+    height: 41px;
+    background-color: $pink;
+    box-shadow: 0px 8.33333px 25px rgba(0, 0, 0, 0.15);
+    border-radius: 5.20833px;
+    line-height: 22px;
+    color: #FFFFFF;
+    font-size: 1.33em;
+    font-family: $roboto;
+    font-weight: 500;
+    line-height: 22px;
+}

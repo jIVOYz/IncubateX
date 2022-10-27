@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Puritan:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap");
+* {
+  font-family: "Puritan", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+[class*=__container] {
+  max-width: 972px;
+  margin: 0 auto;
+}
+
+html, body {
+  height: 100%;
+}
+
+.wrapper {
+  min-height: 100%;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+.page {
+  flex: 1 1 auto;
+}/*# sourceMappingURL=base.css.map */

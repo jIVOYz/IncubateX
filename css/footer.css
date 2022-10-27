@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Puritan:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap");
+* {
+  font-family: "Puritan", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+[class*=__container] {
+  max-width: 972px;
+  margin: 0 auto;
+}
+
+html, body {
+  height: 100%;
+}
+
+.wrapper {
+  min-height: 100%;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+.page {
+  flex: 1 1 auto;
+}
+
+.footer {
+  max-height: 325px;
+  background-color: #f0e7e7;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact-us__container {
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+  line-height: 19.53px;
+}
+.contact-us__container span:first-child {
+  color: #66A5C0;
+  font-size: 1.75em;
+  font-weight: 700;
+}
+.contact-us__container span {
+  display: flex;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 1.2em;
+  margin: 5px 0;
+}
+
+.form__title {
+  color: #0E697D;
+  font-size: 2.7em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  margin: 0 0 10px 0;
+}
+
+.form__subtitle {
+  max-width: 419px;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 1.25em;
+  margin: 0 0 10px 0;
+}
+
+form input {
+  width: 287px;
+  height: 45px;
+  background: #FDFDFD;
+  border: 1.04167px solid #C4C4C4;
+  border-radius: 5.20833px;
+  font-size: 1.19em;
+  font-family: "Roboto", sans-serif;
+}
+
+form button {
+  width: 104px;
+  height: 41px;
+  background-color: #FB49F4;
+  box-shadow: 0px 8.33333px 25px rgba(0, 0, 0, 0.15);
+  border-radius: 5.20833px;
+  line-height: 22px;
+  color: #FFFFFF;
+  font-size: 1.33em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  line-height: 22px;
+}/*# sourceMappingURL=footer.css.map */
