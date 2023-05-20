@@ -1,16 +1,17 @@
-@import url("https://fonts.googleapis.com/css2?family=Puritan:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap');
 * {
-  font-family: "Puritan", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
-[class*=__container] {
+[class*='__container'] {
   max-width: 972px;
   margin: 0 auto;
 }
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -29,7 +30,7 @@ html, body {
 }
 
 @media screen and (max-width: 991px) {
-  [class*=__container] {
+  [class*='__container'] {
     max-width: 768px;
     margin: 0 auto;
   }
@@ -52,7 +53,7 @@ html, body {
   }
 }
 @media screen and (max-width: 768px) {
-  [class*=__container] {
+  [class*='__container'] {
     max-width: 560px;
     margin: 0 auto;
   }
@@ -87,7 +88,7 @@ html, body {
   }
 }
 @media screen and (max-width: 480px) {
-  [class*=__container] {
+  [class*='__container'] {
     max-width: 360px;
     margin: 0 auto;
   }
@@ -163,4 +164,4 @@ html, body {
   .form input {
     width: 230px;
   }
-}/*# sourceMappingURL=adaptive.css.map */
+} /*# sourceMappingURL=adaptive.css.map */
